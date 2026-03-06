@@ -4957,3 +4957,10 @@ form textarea:required:valid {
 .gallery__descr .rounded-tag {
   margin: 0 0 0.4rem 0 !important;
 }
+
+/* Hide avatar button on small screens (<=100% viewport width) */
+@media (max-width: 100%) {
+  .avatar__btnholder {
+    display: none !important;
+  }
+}
